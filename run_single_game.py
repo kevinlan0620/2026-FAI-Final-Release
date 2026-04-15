@@ -14,21 +14,21 @@ from src.engine import Engine
 from src.game_utils import load_players, _preprocess_player_config
 
 # --- Example Configuration ---
-# GAME_CONFIG = {
-#     "players": [
-#         ["src.players.TA.random_player", "RandomPlayer", None],
-#         ["src.players.TA.random_player", "RandomPlayer", None],
-#         ["src.players.TA.min_player", "MinPlayer", None],
-#         ["src.players.TA.max_player", "MaxPlayer", None]
-#     ],
-#     "engine": {
-#         "n_players": 4,
-#         "n_rounds": 10,
-#         "verbose": True,
-#         # "seed": 42
-#     },
-#     "num_games": 1
-# }
+GAME_CONFIG = {
+    "players": [
+        ["src.players.TA.random_player", "RandomPlayer", None],
+        ["src.players.TA.random_player", "RandomPlayer", None],
+        ["src.players.TA.min_player", "MinPlayer", None],
+        ["src.players.TA.max_player", "MaxPlayer", None]
+    ],
+    "engine": {
+        "n_players": 4,
+        "n_rounds": 10,
+        "verbose": True,
+        # "seed": 42
+    },
+    "num_games": 1
+}
 
 def compact_json_dumps(data):
     """
