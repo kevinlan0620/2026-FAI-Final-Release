@@ -1,8 +1,8 @@
 {
     "players": [
-        ["src.players.TA.human_player", "HumanPlayer"],
-        ["src.players.TA.human_player", "HumanPlayer", {}],
-        ["src.players.TA.human_player", "HumanPlayer", {}, "label"],
+        ["src.players.b12902001.best_player1", "best_player1", {}],
+        ["src.players.TA.random_player", "RandomPlayer", {}],
+        ["src.players.TA.random_player", "RandomPlayer", {}, "label"],
         {
             "path": "src.players.TA.random_player",
             "class": "RandomPlayer",
