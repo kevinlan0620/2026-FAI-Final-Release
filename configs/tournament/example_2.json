@@ -10,7 +10,7 @@
         ["src.players.TA.public_baselines1", "Baseline4"],
         ["src.players.TA.public_baselines1", "Baseline5"],
         ["src.players.TA.random_player", "RandomPlayer"],
-        ["src.players.b12902001.best_player1", "best_player1"]
+        ["src.players.b12902001.best_player2", "best_player2"]
     ],
     "engine": {
         "n_players": 4,
