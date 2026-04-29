@@ -2,7 +2,7 @@ import json
 import os
 import random
 
-class best_player9:
+class BestPlayer1:
     def __init__ (self, player_idx):
         self.player_idx = player_idx
         self.W_1, self.W_2, self.W_3, self.W_4, self.W_5, self.W_6 = (5, 10, 10, 10, 20, 250)
